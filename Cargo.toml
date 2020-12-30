@@ -14,3 +14,4 @@ thiserror = "1.0.23"
 rusqlite = { version = "0.23", features=["bundled"] }
 r2d2 = "0.8.9"
 r2d2_sqlite = "0.16.0"
+serde = { version = "1.0", features = ["derive"] }
