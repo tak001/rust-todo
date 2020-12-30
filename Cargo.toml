@@ -9,4 +9,8 @@ edition = "2018"
 [dependencies]
 actix-rt = "1.1.1"
 actix-web = "3.3.2"
+askama = "0.10.5"
 thiserror = "1.0.23"
+rusqlite = { version = "0.23", features=["bundled"] }
+r2d2 = "0.8.9"
+r2d2_sqlite = "0.16.0"
